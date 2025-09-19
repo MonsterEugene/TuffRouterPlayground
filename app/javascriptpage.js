@@ -1,14 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Link } from 'expo-router';
-import LinkButton from './components/LinkButton';
 
-export default function App() {
+// Possibly: cap letters for components, lowercase for full app
+
+export default function Javascriptpage() {
   return (
     <View style={styles.container}>
-      <Text>index</Text>
-      <LinkButton page ="brainrotcore" sText="sig"/>
-      <Link href="javascriptpage">ma</Link>
+      <Text>js</Text>
+      <Link href="brainrotcore">sig</Link>
+      <Link href="/">ma</Link> 
+      {/*use slash to go back to root */}
+      
       <StatusBar style="auto" />
     </View>
   );
@@ -17,7 +20,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#08acc9ff',
     alignItems: 'center',
     justifyContent: 'center',
   },
