@@ -1,5 +1,8 @@
 {
   "expo": {
+    "scheme": "TuffRouterPlayground",
+    "//comment" : "^ we dont know why ",
+
     "name": "TuffRouterPlayground",
     "slug": "TuffRouterPlayground",
     "version": "1.0.0",
