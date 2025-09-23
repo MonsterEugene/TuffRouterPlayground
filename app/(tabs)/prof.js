@@ -1,16 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Link } from 'expo-router';
-import LinkButton from '../components/LinkButton';
+import LinkButton from '../../components/LinkButton';
+// ../ parent direct  vs ./ current direct
 
-export default function App() {
+export default function Profile() {
   return (
     <View style={styles.container}>
-      <Text>index</Text>
+      <Text>profile page</Text>
       <LinkButton page ="brainrotcore" sText="sig"/>
       <Link href="javascriptpage">ma</Link>
-      <LinkButton page = "huff" sText="f u n"></LinkButton>
-      {" somehow the () in tabs makes it know how to get directly to huff.js"}
       <StatusBar style="auto" />
     </View>
   );
@@ -19,7 +18,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ff1c73ff',
     alignItems: 'center',
     justifyContent: 'center',
   },
