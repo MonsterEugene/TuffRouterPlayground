@@ -9,10 +9,10 @@ export default function RootLayout(){
             <Stack.Screen name="javascriptpage" options={{ title: "js" }} />
             <Stack.Screen name = "(tabs)" options ={{title: "i did it"}}/>
             
-            {'this one below doesnt work what the helly '}
-            <Stack.Screen name = "huff" options ={{title:"only huffy"}}/>
+            {/*this one below doesnt work what the helly */}
+            <Stack.Screen name = "(tabs)/huff" options ={{title:"only huffy"}}/>
 
-            {" allows you to go back without having a specific button that goes back"}
+            {/* allows you to go back without having a specific button that goes back*/}
         </Stack>
     );
 }

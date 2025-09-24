@@ -10,7 +10,7 @@ export default function App() {
       <LinkButton page ="brainrotcore" sText="sig"/>
       <Link href="javascriptpage">ma</Link>
       <LinkButton page = "huff" sText="f u n"></LinkButton>
-      {" somehow the () in tabs makes it know how to get directly to huff.js"}
+      {/* somehow the () in tabs makes it know how to get directly to huff.js*/}
       <StatusBar style="auto" />
     </View>
   );
